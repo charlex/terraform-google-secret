@@ -17,9 +17,6 @@
 /******************************************
   Provider configuration
  *****************************************/
-provider "google" {
-  credentials = "${file(var.credentials_file_path)}"
-}
 
 locals {
   //  secret_project = "${var.project_name}"
